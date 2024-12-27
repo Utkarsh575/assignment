@@ -9,8 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "var(--color-background)",
+        foreground: "var(--color-foreground)",
+        terminalText: "var(--color-terminal-text)",
+        terminalAccent: "var(--color-terminal-accent)",
+        terminalInput: "var(--color-terminal-input)",
+        error: "var(--color-error)",
+        system: "var(--color-system)",
       },
     },
   },
