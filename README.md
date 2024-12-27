@@ -2,7 +2,18 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+### Adding Your `OPENAI_API_KEY`
+
+You need to add your `OPENAI_API_KEY` to the `.env` file in the root of your project. Follow these steps:
+
+1. Create a `.env` file in the root directory of your project if it doesn't already exist.
+2. Add the following line to the `.env` file:
+
+```bash
+   OPENAI_API_KEY=your-api-key-here
+```
+
+### Steps To Start the Development Server
 
 ```bash
 npm run dev
@@ -18,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [VT323](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
 
